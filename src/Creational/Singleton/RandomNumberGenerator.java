@@ -36,12 +36,12 @@ public final class RandomNumberGenerator {
 
     // Example API methods:
     /**
-     * @bound
-     * @param bound Returns a random int in range [0, bound).
+     * @bound @param bound Returns a random int in range [0, bound).
      */
     public int nextInt(int bound) {
         return random.nextInt(bound);
     }
+
     public int nextInt() {
         return random.nextInt();
     }
@@ -52,6 +52,7 @@ public final class RandomNumberGenerator {
     public double nextDouble(double bound) {
         return random.nextDouble(bound);
     }
+
     public double nextDouble() {
         return random.nextDouble();
     }

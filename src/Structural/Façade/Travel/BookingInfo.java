@@ -2,15 +2,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Resources;
+package Structural.Façade.Travel;
+
+import java.util.Date;
+import java.util.List;
 
 /**
  *
  * @author DELL 7550
  */
-public abstract class Demo implements Runnable {
+public class BookingInfo {
 
-    @Override
-    public abstract void run();
+    String source;
+    String destination;
+    Date fromDate;
+    Date toDate;
+    List<PersonInfo> list;
+
 }
-//For Later if I wanna add a menu for testing the patterns

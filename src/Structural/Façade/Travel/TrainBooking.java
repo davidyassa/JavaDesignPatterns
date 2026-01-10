@@ -2,15 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Resources;
+package Structural.Façade.Travel;
 
 /**
  *
  * @author DELL 7550
  */
-public abstract class Demo implements Runnable {
+public class TrainBooking {
 
-    @Override
-    public abstract void run();
+    public TrainBooking() {
+    }
+
+    public void bookTrain(BookingInfo info) {
+    }
+
 }
-//For Later if I wanna add a menu for testing the patterns

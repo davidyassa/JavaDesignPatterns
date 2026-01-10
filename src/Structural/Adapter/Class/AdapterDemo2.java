@@ -24,11 +24,11 @@ public class AdapterDemo2 extends Demo {
         roundPeg.insertIntoHole("I am a RoundPeg into a round hole.");
         SquarePeg squarePeg = new SquarePeg();
         squarePeg.insert("I am a SquarePeg into a square hole.");
-        
+
         // Create a two-way adapter and do an insert with it.
         ISquarePeg wannabeRound = new PegAdapter(roundPeg);
         wannabeRound.insert("I am a SquarePeg into a round hole!");
-        
+
         IRoundPeg wannabeSquare = new PegAdapter(squarePeg);
         wannabeSquare.insertIntoHole("I am a RoundPeg into a square hole!");
     }
