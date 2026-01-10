@@ -31,9 +31,4 @@ public class FacadeDemo extends Demo {
         sep();
     }
 
-    public static void sep() {
-        final String dash = "---------------------------------------------";
-        System.out.println(dash);
-    }
-
 }
