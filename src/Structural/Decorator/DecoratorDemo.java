@@ -21,7 +21,7 @@ public class DecoratorDemo extends Demo {
         Car sportsCar = new SportsCar(new BasicCar());
 
         sportsCar.assemble();
-        System.out.println("\n*****");
+        sep();
         Car sportsLuxuryCar = new SportsCar(new LuxuryCar(new BasicCar()));
 
         sportsLuxuryCar.assemble();

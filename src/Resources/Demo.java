@@ -13,8 +13,8 @@ public abstract class Demo implements Runnable {
     @Override
     public abstract void run();
     public static void sep() {
-        final String dash = "---------------------------------------------";
-        System.out.println(dash);
+        final String dash = "\n---------------------------------------------\n";
+        System.out.print(dash);
     }
 }
 //For Later if I wanna add a menu for testing the patterns
