@@ -2,16 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Structural.Composite.Department;
+package Structural123.Adapter.Object;
+
+import Structural123.Adapter.Class.ISquarePeg;
 
 /**
  *
  * @author DELL 7550
  */
-public class FinancialDepartment extends Department {
+public class SquarePeg implements ISquarePeg {
 
-    public FinancialDepartment(Integer id, String name) {
-        super(id, name);
+    @Override
+    public void insert(String str) {
+        System.out.println("SquarePeg insert(): " + str);
     }
-
 }
