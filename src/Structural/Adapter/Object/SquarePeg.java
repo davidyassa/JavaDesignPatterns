@@ -2,18 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Structural123.Adapter.Object;
+package Structural.Adapter.Object;
 
-import Structural123.Adapter.Class.IRoundPeg;
+import Structural.Adapter.Class.ISquarePeg;
 
 /**
  *
  * @author DELL 7550
  */
-public class RoundPeg implements IRoundPeg {
+public class SquarePeg implements ISquarePeg {
 
     @Override
-    public void insertIntoHole(String msg) {
-        System.out.println("RoundPeg insertIntoHole(): " + msg);
+    public void insert(String str) {
+        System.out.println("SquarePeg insert(): " + str);
     }
 }
