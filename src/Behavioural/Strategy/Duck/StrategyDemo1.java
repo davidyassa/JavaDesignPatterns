@@ -10,10 +10,10 @@ import Resources.Demo;
  *
  * @author DELL 7550
  */
-public class StrategyDemo extends Demo {
+public class StrategyDemo1 extends Demo {
 
     public static void main(String[] args) {
-        new StrategyDemo().run();
+        new StrategyDemo1().run();
     }
 
     @Override

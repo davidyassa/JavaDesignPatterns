@@ -11,10 +11,10 @@ import java.util.Scanner;
  *
  * @author DELL 7550
  */
-public class DemoFactory extends Demo {
+public class FactoryDemo extends Demo {
 
     public static void main(String[] args) {
-        new DemoFactory().run();
+        new FactoryDemo().run();
     }
 
     @Override
