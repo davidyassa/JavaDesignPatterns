@@ -4,7 +4,7 @@
  */
 package Structural.Bridge;
 
-import Resources.Demo;
+import Demo.Demo;
 
 /**
  *

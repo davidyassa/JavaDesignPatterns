@@ -4,7 +4,7 @@
  */
 package Creational.Builder.Cake;
 
-import Resources.Demo;
+import Demo.Demo;
 
 /**
  *

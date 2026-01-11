@@ -4,7 +4,7 @@
  */
 package Structural.Composite.Department;
 
-import Resources.Demo;
+import Demo.Demo;
 import java.util.ArrayList;
 import java.util.List;
 

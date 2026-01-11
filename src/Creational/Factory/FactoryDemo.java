@@ -4,7 +4,7 @@
  */
 package Creational.Factory;
 
-import Resources.Demo;
+import Demo.Demo;
 import java.util.Scanner;
 
 /**
@@ -20,9 +20,9 @@ public class FactoryDemo extends Demo {
     @Override
     public void run() {
         Scanner sc = new Scanner(System.in);
-        String input = "";
-        while (input != null) {
-            System.out.print("Enter Desired Shape: ");
+        String input;
+        while (true) {
+            System.out.print("Enter Desired Shape (Press Enter to exit): ");
             input = sc.nextLine().trim();
             Shape s;
             try {
@@ -32,7 +32,9 @@ public class FactoryDemo extends Demo {
                 if (s == null) {
                     throw new IllegalArgumentException();
                 }
-            } catch (Exception e) {
+            } catch (IllegalArgumentException e1) {
+                System.out.println(e1.getMessage());
+            } catch (Exception e2) {
                 System.out.println("Exiting...");
                 System.exit(0);
             }

@@ -4,7 +4,7 @@
  */
 package Structural.Decorator;
 
-import Resources.Demo;
+import Demo.Demo;
 
 /**
  *

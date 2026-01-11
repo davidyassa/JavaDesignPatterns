@@ -4,7 +4,7 @@
  */
 package Structural.Proxy;
 
-import Resources.Demo;
+import Demo.Demo;
 
 /**
  *

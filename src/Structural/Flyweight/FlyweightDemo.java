@@ -4,7 +4,7 @@
  */
 package Structural.Flyweight;
 
-import Resources.Demo;
+import Demo.Demo;
 
 /**
  *

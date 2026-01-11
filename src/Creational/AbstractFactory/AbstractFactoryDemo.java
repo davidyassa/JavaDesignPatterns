@@ -4,7 +4,7 @@
  */
 package Creational.AbstractFactory;
 
-import Resources.Demo;
+import Demo.Demo;
 import java.util.Scanner;
 
 /**

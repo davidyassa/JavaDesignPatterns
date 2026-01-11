@@ -4,7 +4,7 @@
  */
 package Structural.Adapter.Class;
 
-import Resources.Demo;
+import Demo.Demo;
 import Structural.Adapter.Object.RoundPeg;
 import Structural.Adapter.Object.SquarePeg;
 

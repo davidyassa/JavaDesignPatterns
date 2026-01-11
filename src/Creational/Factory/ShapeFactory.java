@@ -22,7 +22,7 @@ public class ShapeFactory {
                 return new Triangle();
             }
             default -> {
-                throw new IllegalArgumentException("Shape out of Stock!");
+                throw new IllegalArgumentException("Shape Unavailable!");
             }
         }
     }

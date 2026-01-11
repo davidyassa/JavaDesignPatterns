@@ -4,7 +4,7 @@
  */
 package Structural.Composite.Employee;
 
-import Resources.Demo;
+import Demo.Demo;
 
 /**
  *

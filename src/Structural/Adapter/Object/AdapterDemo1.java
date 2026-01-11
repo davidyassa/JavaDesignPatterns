@@ -4,7 +4,7 @@
  */
 package Structural.Adapter.Object;
 
-import Resources.Demo;
+import Demo.Demo;
 
 /**
  *

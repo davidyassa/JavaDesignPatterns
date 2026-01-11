@@ -4,7 +4,7 @@
  */
 package Creational.Prototype;
 
-import Resources.Demo;
+import Demo.Demo;
 
 /**
  *

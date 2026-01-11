@@ -4,7 +4,7 @@
  */
 package Creational.Singleton;
 
-import Resources.Demo;
+import Demo.Demo;
 
 /**
  *
