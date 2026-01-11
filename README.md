@@ -7,36 +7,73 @@ A clean, runnable collection of **Gang of Four (GoF) design patterns** implement
 ## ✅ Patterns Covered
 
 ### Behavioural
-- **Chain of Responsibility**
-- **Iterator**
 - **Observer**
-- **State**
+- **Iterator**
 - **Strategy**
+- **Chain of Responsibility**
+- **State**
 
 ### Creational
+- **Factory**
 - **Abstract Factory**
 - **Builder**
-- **Factory**
 - **Prototype**
 - **Singleton**
 
 ### Structural
-- **Adapter**
-- **Bridge**
 - **Composite**
-- **Decorator**
-- **Facade**
-- **Flyweight**
+- **Adapter**
 - **Proxy**
+- **Flyweight**
+- **Facade**
+- **Bridge**
+- **Decorator**
 
 ---
 
 ## 🚀 Running the Demos
-### In NetBeans
-1. Expand the pattern package (e.g., `Behavioural/Strategy`)
+
+You have **two ways** to run this project:
+
+### Option 1: Run the prebuilt version (recommended)
+
+Use the **`release/`** folder — it contains a ready-to-run JAR so you don’t need NetBeans or compiling.
+
+1. Open `release/`
+2. Open the `jar/` folder (this contains `Design_Patterns.jar`)
+3. Run it:
+
+* **Windows:** double-click `run.bat`
+* **macOS:** double-click `run.command` (may show a one-time security prompt)
+* **Linux:** double-click `Design Patterns.desktop` (some desktops may ask “Allow Launching” once)
+
+If you prefer command line, go inside `release/jar/` and run:
+
+```bash
+java -jar "Design_Patterns.jar"
+```
+
+**Requirements:** Java **21**.
+
+---
+
+### Option 2: Run from NetBeans (source code)
+
+Use this if you want to inspect/edit the code.
+
+**Run the Menu App (recommended inside NetBeans)**
+
+1. Open `Demo/DemoApp.java`
+2. **Right-click → Run File**
+3. Use the menu to pick the category + pattern demo
+
+**Run a single pattern demo**
+
+1. Expand a category package (e.g., `Behavioral/Strategy`)
 2. Open the `*Demo` class
 3. **Right-click → Run File**
-> All Demos implement Runnable interface, for future menu implementation
+
+> All demos extend `Demo` and implement `Runnable` (`run()`), so every pattern runs in a consistent way.
 
 ---
 
