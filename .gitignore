@@ -38,3 +38,13 @@ nbdist/
 .nb-gradle/
 
 # End of https://www.toptal.com/developers/gitignore/api/java,netbeans
+
+# --- Release bundle (track it even though *.jar and dist/ are ignored) ---
+!release/
+!release/**
+
+!release/**/*.jar
+!release/**/*.bat
+!release/**/*.sh
+!release/**/*.txt
+!release/**/lib/**

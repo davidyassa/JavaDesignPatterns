@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Design Patterns
+Exec=sh -c 'cd "$(dirname "%k")/jar" && java -jar "Design_Patterns.jar"'
+Terminal=false
+Icon=utilities-terminal
