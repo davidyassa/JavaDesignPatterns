@@ -26,6 +26,7 @@ public class StrategyDemo2 extends Demo {
         try {
             aisle4.checkout(10);    //someone in a hurry
         } catch (IllegalStateException e) {
+
             System.out.println(e.getMessage());
         }
         aisle4.setMethod(Cash);
